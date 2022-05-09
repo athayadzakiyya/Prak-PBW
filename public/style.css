@@ -1,0 +1,43 @@
+.background {
+    color: black;
+    background-color: palevioletred;
+    font-family: monospace;
+}
+
+.text {
+    font-family: fantasy;
+}
+
+.rectangle {
+    background: #3ce9c6db;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+
+.oke {
+    font-family: cursive;
+    font-size: 15px;
+    background: #ca4a3f;
+    color: white;
+    padding: 5px 10px;
+}
+
+.container {
+    margin: 100px auto;
+    width: 400px;
+    padding: 10px;
+    background: #3ce9c6db;
+    box-shadow: 0 0 10px;
+}
+
+.kotak {
+    margin: 50px auto;
+    width: 300px;
+    padding: 10px;
+    background: #3ce9c6db;
+    box-shadow: 0 0 10px;
+}
+
+.s {
+    color: palevioletred;
+}
