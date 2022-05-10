@@ -10,6 +10,9 @@
     <title>KUIS</title>
 </head>
 <body>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+</div>
   <div class="background">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -27,20 +30,17 @@
         </div>
       </nav>
       
-      
+
       <div class="container">
-        <h4>SOAL NO. 1<br></h4>
+        <h4>SOAL NO. 2<br></h4>
         <center>
-            <h5>Yang manakah jenis hewan yang menjadi salah satu hewan yang berada di bagian timur laut Amerika Serikat?</h5>
+            <h5>Hewan amfibi ini sering ditemukan di sawah yang tergenang air. apakah itu?</h5>
         </center>
       </div>
-      <div class="kotak">
-      <a href="Kuis"><center><h5>Buno SP</h5></center></a>
+      <div class="d-grid gap-2 col-6 mx-auto">
+      <a href="" class="btn btn-secondary" role="button" data-bs-toggle="button">Salamander</a>
+      <a href="Kuis3" class="btn btn-secondary" role="button" data-bs-toggle="button">Katak sawah</a>
       </div>
-      <div class="kotak">
-        <a href="Kuis2"><center><h5>Common Mudpuppy</h5></center></a>
-      </div>
-      <div class="s">duh</div>
     </body>
   </div>
 </html>

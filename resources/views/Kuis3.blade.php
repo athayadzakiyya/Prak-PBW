@@ -10,6 +10,9 @@
     <title>KUIS</title>
 </head>
 <body>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+</div>
   <div class="background">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -29,18 +32,15 @@
       
       
       <div class="container">
-        <h4>SOAL NO. 1<br></h4>
+        <h4>SOAL NO. 3<br></h4>
         <center>
-            <h5>Yang manakah jenis hewan yang menjadi salah satu hewan yang berada di bagian timur laut Amerika Serikat?</h5>
+            <h5>Amfibi merupakan kelas anggota dari Filum ...</h5>
         </center>
       </div>
-      <div class="kotak">
-      <a href="Kuis"><center><h5>Buno SP</h5></center></a>
+      <div class="d-grid gap-2 col-6 mx-auto">
+      <a href="Kuis4" class="btn btn-secondary" role="button" data-bs-toggle="button">Chordata</a>
+      <a href="" class="btn btn-secondary" role="button" data-bs-toggle="button">Porifera</a>
       </div>
-      <div class="kotak">
-        <a href="Kuis2"><center><h5>Common Mudpuppy</h5></center></a>
-      </div>
-      <div class="s">duh</div>
     </body>
   </div>
 </html>

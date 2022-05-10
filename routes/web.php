@@ -24,6 +24,13 @@ Route::get('/amfibi', [KuisController::class, 'Amfibi']);
 
 Route::get('/Pelajaran', [StudyController::class, 'Pelajaran']);
 
+Route::post('/Pelajaran', [StudyController::class, 'store']);
+
+// Route::get('Pelajaran', [StudyController::class, 'hapus']);
+Route::post('Pelajaran', [StudyController::class, 'update']);
+Route::get('/Pelajaran/edit/{id}', [StudyController::class, 'edit']);
+
+
 Route::get('/Kuis', [KuisController::class, 'Kuis']);
 Route::get('/Kuis2', [KuisController::class, 'Kuis2']);
 Route::get('/Kuis3', [KuisController::class, 'Kuis3']);

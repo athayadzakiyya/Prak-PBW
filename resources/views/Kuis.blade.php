@@ -34,13 +34,12 @@
             <h5>Yang manakah jenis hewan yang menjadi salah satu hewan yang berada di bagian timur laut Amerika Serikat?</h5>
         </center>
       </div>
-      <div class="kotak">
-      <a href="Kuis"><center><h5>Buno SP</h5></center></a>
+      <a href="Kuis"></a>
       </div>
-      <div class="kotak">
-        <a href="Kuis2"><center><h5>Common Mudpuppy</h5></center></a>
-      </div>
-      <div class="s">duh</div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+      <a href="" class="btn btn-secondary" role="button" data-bs-toggle="button">Salamander</a>
+      <a href="Kuis2" class="btn btn-secondary" role="button" data-bs-toggle="button">Common Mudpuppy</a>
+    </div>
     </body>
   </div>
 </html>

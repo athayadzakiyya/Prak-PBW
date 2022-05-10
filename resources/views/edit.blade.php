@@ -26,35 +26,40 @@
         </div>
       </nav>
 
-      <div class="background">
         <center>
         <br><H5>COBA SEBUTKAN BINATANG AMFIBI APA SAJA YANG KAMU INGAT DARI HALAMAN SEBELUMNYA!!</H5></center>
-      <table class="table2" align="center">
-        <table border="1" cellspacing="3" cellpadding="25" align="center" width="1300">
-          <ul>
-            <thead>
-              <body>
-                <tr>
-                          <td>NO.</td>
-                            <td>JENIS</td>
-                        </tr>
-                        @foreach($amfibi as $hewan)
-                <tr>
-                    <td>{{$hewan->no}}</td>
-                    <td>{{$hewan->jenis}}</td>
-                
-                    <td>
-                        <a href="">Edit</a>&nbsp;&nbsp;&nbsp;
-                        <a style="color:red;" href="">Hapus</a>
-                    </td>
-                </tr>
-                @endforeach
-                    </body>
-                </thead>
-            </ul>
-        </table>
+        <div class="row">
+        <div class="table-responsive">                
+            <table id="mytable" class="table table-bordered border-primary">
+            <ul>
+        </ul>
+                <thead>
+                <body>
+                  <tr>
+                    <th>NO.</th>
+                    <th>JENIS</th>
+                  </tr>
+                </body>
+            </thead>
+            <tbody> 
+            
+                 <form action="/Pelajaran/update" method ="post">
+                  {{csrf_field()}}
+                  <tr>
+                      <input type="hidden" name="id" value="{{$hewan->id}}">
+                        <H5> NOMOR </H5>  <input type=text, name="nomor", required="required", value="{{$hewan->Nomor}}><br><br>
+                        <H5>JENIS</H5> 
+                    </tr> 
+                    <tr> 
+                        <td><input type=text, name="JENIS", required="required", value="{{$hewan->JENIS}}></td><br>
+                        <td><br><input type="submit" value="Simpan Data"></td>
+                    </tr>
+                 </form>
+              
 
-</div>
+            </tbody>
+        </table>
+        
     
 </body>
 </html>
