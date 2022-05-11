@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- membuat navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="amfibi">AMFIBI</a>
@@ -27,6 +28,7 @@
         </div>
       </nav>
       <div class="background">
+        <!-- judul -->
       <center><div class="text"><h1>AMFIBI</h1></div></center>
 
       <p><h2>PENGERTIAN</h2>
@@ -46,6 +48,7 @@
       <div class="rectangle">
       <p><h4>1. Kodok (Buso sp)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/1jpg-c81271f4d2b698ffa33598d1d17eb5ca.jpg" class="rounded" alt="gambar kodok">
       </div>
       Tentu kamu sudah tidak asing lagi dengan kodok yang satu ini kan? Hewan yang memiliki nama latin Buso sp ini adalah 
@@ -59,6 +62,7 @@
       <div class="rectangle">
       <p><h4>2. Katak sawah (Rana sp)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/2jpg-4827793291ca00d7ebbceabdac1c1e8b.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/2jpg-4827793291ca00d7ebbceabdac1c1e8b.jpg" alt="gambar katak"> -->
@@ -71,6 +75,7 @@
       <div class="rectangle">
       <p><h4>3. Katak Pohon (Hyla sp)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/3jpg-7fb818f7da4b03edb15e5f261b2a3bdd.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/3jpg-7fb818f7da4b03edb15e5f261b2a3bdd.jpg" alt="gambar katak"> -->
@@ -80,6 +85,7 @@
       <div class="rectangle">
       <p><h4>4. Salamander (Salamander sp)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/4jpg-c893fd76c959c1d634a7cc0d3a75a956.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/4jpg-c893fd76c959c1d634a7cc0d3a75a956.jpg" alt="gambar katak"> -->
@@ -89,6 +95,7 @@
       <div class="rectangle">
       <p><h4>5. Sesilia/Apoda (Caecilia sp)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/5jpg-2ca2b86339104ac950fd5490a5614b27.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/4jpg-c893fd76c959c1d634a7cc0d3a75a956.jpg" alt="gambar katak"> -->
@@ -98,6 +105,7 @@
       <div class="rectangle">
       <p><h4>6. Axolotl (Ambystoma mexicanum)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/6jpg-b56907d0ef49ba68659efe03421a5f9c.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/4jpg-c893fd76c959c1d634a7cc0d3a75a956.jpg" alt="gambar katak"> -->
@@ -107,6 +115,7 @@
       <div class="rectangle">
       <p><h4>7. Diplocaulus</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/7jpg-b6cf67f053040559964c8a99fa4c179b.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/7jpg-b6cf67f053040559964c8a99fa4c179b.jpg" alt="gambar katak"> -->
@@ -116,6 +125,7 @@
       <div class="rectangle">
       <p><h4>8. Common Mudpuppy (Necturus maculosus)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/8jpg-3b1b273b987108bc786f7d41324b2bae.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/7jpg-b6cf67f053040559964c8a99fa4c179b.jpg" alt="gambar katak"> -->
@@ -125,6 +135,7 @@
       <div class="rectangle">
       <p><h4>9. Olm (Proteus anguinus)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/9jpg-24378d429863ce255822ed21f4dc01af.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/9jpg-24378d429863ce255822ed21f4dc01af.jpg" alt="gambar katak"> -->
@@ -134,6 +145,7 @@
       <div class="rectangle">
       <p><h4>10. Purple Frog (Nasikabatrachus sahyadrensis)</h4>
       <div class="text-center">
+        <!-- menuju url gambar  -->
       <img src="https://cdn.popmama.com/content-images/post/20210819/10jpg-4a3699b12eab1efe744036f2de04436f.jpg" class="rounded" alt="gambar kodok">
       </div>
       <!-- <img scr="https://cdn.popmama.com/content-images/post/20210819/9jpg-24378d429863ce255822ed21f4dc01af.jpg" alt="gambar katak"> -->
@@ -142,6 +154,7 @@
       <center>
       Sudah mempelajari materi di atas? Silahkan menuju halaman selanjutnya....
       <td align="right">
+        <!-- membuat button untuk ke halaman selanjutnya -->
         <a href="Pelajaran"><button class="oke">OKEEE</button></a></td>
     </center>
     </body>

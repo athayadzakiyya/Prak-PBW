@@ -10,6 +10,7 @@
     <title>KUIS</title>
 </head>
 <body>
+  <!-- membuat navbar -->
   <div class="background">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -34,12 +35,12 @@
             <h5>Yang manakah jenis hewan yang menjadi salah satu hewan yang berada di bagian timur laut Amerika Serikat?</h5>
         </center>
       </div>
-      <a href="Kuis"></a>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto">
       <a href="" class="btn btn-secondary" role="button" data-bs-toggle="button">Salamander</a>
       <a href="Kuis2" class="btn btn-secondary" role="button" data-bs-toggle="button">Common Mudpuppy</a>
     </div>
+    
     </body>
   </div>
 </html>

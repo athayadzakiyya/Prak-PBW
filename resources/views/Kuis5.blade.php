@@ -41,7 +41,7 @@
         </center>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto">
-      <a href="" class="btn btn-secondary" role="button" data-bs-toggle="button">Diplocaulus</a>
+      <a href="end" class="btn btn-secondary" role="button" data-bs-toggle="button">Diplocaulus</a>
       <a href="" class="btn btn-secondary" role="button" data-bs-toggle="button">Olm</a>
       </div>
 

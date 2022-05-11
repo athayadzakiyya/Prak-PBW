@@ -33,6 +33,7 @@
             <table id="mytable" class="table table-bordered border-primary">
             <ul>
         </ul>
+        <!-- membuat tabel -->
                 <thead>
                 <body>
                   <tr>
@@ -42,18 +43,16 @@
                 </body>
             </thead>
             <tbody> 
-            
-                 <form action="/Pelajaran/update" method ="post">
+            @foreach($Pelajaran as $hewan)
+            <!-- mengambil data dari tabel amfibi lalu mengeditnya sesuai id nya -->
+                 <form action="/Pelajaran/update/{{$hewan->id}}" method ="post">
                   {{csrf_field()}}
-                  <tr>
-                      <input type="hidden" name="id" value="{{$hewan->id}}">
-                        <H5> NOMOR </H5>  <input type=text, name="nomor", required="required", value="{{$hewan->Nomor}}><br><br>
-                        <H5>JENIS</H5> 
-                    </tr> 
                     <tr> 
-                        <td><input type=text, name="JENIS", required="required", value="{{$hewan->JENIS}}></td><br>
-                        <td><br><input type="submit" value="Simpan Data"></td>
-                    </tr>
+                        <td><input type=text, name="Nomor", required="required", value="{{$hewan->Nomor}}"></td>
+                        <td><input type=text, name="JENIS", required="required", value="{{$hewan->JENIS}}"></td>
+                        <td><input type="submit" value="Simpan Data"></td>
+                        </tr>
+                    @endforeach
                  </form>
               
 

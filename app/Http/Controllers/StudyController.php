@@ -28,7 +28,7 @@ class StudyController extends Controller
     {
         //memasukkan data kedalam databse
         DB::table('amfibi')->insert([
-            'nomor' => $request->nomor,
+            'Nomor' => $request->Nomor,
             'JENIS' => $request->JENIS
         ]);
 
@@ -37,7 +37,7 @@ class StudyController extends Controller
 
     public function edit($id)
     {
-        #ambil data mahasiswa berdasarkan nim
+        #ambil data berdasarkan id di tabel
         $amfibi = DB::table('amfibi')->where('id', $id)->get();
         // dd($amfibi);
         #passing data
@@ -48,17 +48,19 @@ class StudyController extends Controller
 
     public function update(Request $request)
     {
-        DB::table('amfibi')->where('id', $request->id)->update([
-            'nomor' => $request->nomor,
+        //update data
+        $amfibi = DB::table('amfibi')->where('id', $request->id)->update([
+            'Nomor' => $request->Nomor,
             'JENIS' => $request->JENIS
         ]);
 
         return redirect('/Pelajaran');
     }
 
-    // public function hapus()
-    // {
-    //     DB::table('amfibi')->delete();
-    //     return redirect('/Pelajaran');
-    // }
+    public function hapus($id)
+    {
+        //hapus data
+        $amfibi = DB::table('amfibi')->where('id', $id)->delete();
+        return redirect('/Pelajaran');
+    }
 }

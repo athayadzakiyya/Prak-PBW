@@ -45,7 +45,7 @@
       <a href="Kuis5" class="btn btn-secondary" role="button" data-bs-toggle="button">Katak Pohon</a>
       <a href="" class="btn btn-secondary" role="button" data-bs-toggle="button">Purple Frog</a>
       </div>
-
+<br><br>
     </body>
   </div>
 </html>

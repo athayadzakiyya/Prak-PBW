@@ -20,17 +20,27 @@ Route::get('/', function () {
     return view('amfibi');
 });
 
+Route::get('/end', function () {
+    return view('end');
+});
+
+// memanggil halaman amfibi dengan memanggil function amfibi yang ada di controller
 Route::get('/amfibi', [KuisController::class, 'Amfibi']);
 
+// memanggil halaman pelajaran dengan memanggil function pelajaran yang ada di controller
 Route::get('/Pelajaran', [StudyController::class, 'Pelajaran']);
 
+// memanggil halaman pelajaran dengan memanggil function store yang ada di controller
 Route::post('/Pelajaran', [StudyController::class, 'store']);
 
-// Route::get('Pelajaran', [StudyController::class, 'hapus']);
-Route::post('Pelajaran', [StudyController::class, 'update']);
+// memanggil halaman untuk menghapus data dengan memanggil function hapus yang ada di controller
+Route::get('Pelajaran/hapus/{id}', [StudyController::class, 'hapus']);
+// memanggil halaman auntuk mengupdate dengan memanggil function update yang ada di controller
+Route::post('Pelajaran/update/{id}', [StudyController::class, 'update']);
+// memanggil halaman untuk mengedit data dengan memanggil function edit yang ada di controller
 Route::get('/Pelajaran/edit/{id}', [StudyController::class, 'edit']);
 
-
+// memanggil halaman kuis dengan memanggil function kuis yang ada di controller
 Route::get('/Kuis', [KuisController::class, 'Kuis']);
 Route::get('/Kuis2', [KuisController::class, 'Kuis2']);
 Route::get('/Kuis3', [KuisController::class, 'Kuis3']);

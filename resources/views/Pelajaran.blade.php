@@ -10,6 +10,7 @@
     <title>PELAJARAN</title>
 </head>
 <body>
+  <!-- membuat navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="amfibi">AMFIBI</a>
@@ -28,6 +29,7 @@
 
         <center>
         <br><H5>COBA SEBUTKAN BINATANG AMFIBI APA SAJA YANG KAMU INGAT DARI HALAMAN SEBELUMNYA!!</H5></center>
+        <!-- membuat tabel -->
         <div class="row">
         <div class="table-responsive">                
             <table id="mytable" class="table table-bordered border-primary">
@@ -44,11 +46,14 @@
             <tbody> 
                 @foreach($Pelajaran as $hewan)
                 <tr>
+                  <!-- memanggil data pada tabel amfibi untuk di passing ke tabel -->
                     <td>{{ $hewan->Nomor }}</td>
                     <td>{{ $hewan->JENIS }}</td>
                     <td>
+                      <!-- mengedit data dengan menunjuk function yg ada di controller  -->
                     <a href="/Pelajaran/edit/{{$hewan->id}}">Edit</a>
-                        <!-- <a style="color:red;" href="Pelajaran">Hapus</a> -->
+                    <!-- mengedit data dengan menunjuk function yg ada di controller  -->
+                        <a style="color:red;" href="Pelajaran/hapus/{{$hewan->id}}">Hapus</a>
                     </td>
                 </tr>
                 @endforeach
@@ -60,12 +65,12 @@
         <form action="Pelajaran" method ="post">
         {{csrf_field()}}
         <tr>
-        <H5> NOMOR </H5>  <input type=text, name="nomor", required="required"><br><br>
+        <H5>NOMOR</H5>  <input type=text, name="Nomor", required="required"><br><br>
         <H5>JENIS</H5> 
         </tr> 
         <tr> 
           <td><input type=text, name="JENIS", required="required"></td><br>
-        <td><br><input type="submit" value="Simpan Data"></td>
+          <td><br><input type="submit" value="Simpan Data"></td>
         </tr>
     </form>
     
